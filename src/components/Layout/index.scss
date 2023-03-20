@@ -7,6 +7,7 @@
 .top-tags {
   bottom: auto;
   top: 35px;
+  margin-left: 5px;
 }
 
 .tags {
@@ -15,12 +16,14 @@
   position: absolute;
   bottom: 0;
   left: 120px;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'La Belle Aurore';
 }
 
-.botom-tag-html {
-  margin-left: -20px;
+.bottom-tag-html {
+  position: relative;
+  margin-left: 5px;
+  bottom: 3rem;
 }
 
 .container {
@@ -38,7 +41,7 @@
   animation-delay: 1s;
 }
 
-.about-page {
+.about-page, .contact-page {
 
   .text-zone {
     position: absolute;
@@ -88,7 +91,8 @@
 
     p {
 
-      font-style: 13px;
+      font-style: 20px;
+      font-size: 17px;
       color: #ffff;
       font-family: 'Coolvetica';
       font-weight: 100;
@@ -109,6 +113,7 @@
     &:hover {
       animation: rubberBand 1s;
       color: #ffff;
+      cursor: cell;
     }
   }
 }
